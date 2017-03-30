@@ -1,0 +1,89 @@
+body{
+    padding:0; margin:0;
+    background: url(../images/bg.gif) repeat-x 0 0 #075D79;
+    color:#B3D8E4;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*login part*/
+div.login
+{
+    height: 330px;
+    width:500px;
+    background-color:lightcyan;
+    color: navy;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-top:100px;
+}
+
+h1
+{
+    /*background-color:honeydew;*/
+    color:lightseagreen;
+}
+
+#keeplogin
+{
+    color:darkcyan;
+}
+.submitpart
+{
+    margin-left: 400px;
+    /*background-color:white;*/
+}
+.buttonpart
+{
+    margin-left: 150px;
+    /*background-color: white;*/
+}
+.regbutton
+{
+    background-color: honeydew;
+}
+.submitbutton
+{
+    background-color: lightblue;
+    width: 50px;
+    height: 20px;
+}
+.lable
+{
+    color:darkcyan;
+}
+
+/*register part*/
+div.register{
+  height: 1150px;
+    width:500px;
+    background-color:lightcyan;
+    color: navy;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-top:100px;
+}
+.input
+{
+    width: 70%;
+}
+.subinput1
+{
+    width: 50%;
+}
+.subinput2
+{
+    width: 20%;
+}
+.figure
+{
+    float: left;
+    height: 70px;
+    width: 70px;
+}
+.uploadfigure
+{
+    margin-left: 50px;
+    height:20px;
+    width: 200px;
+}

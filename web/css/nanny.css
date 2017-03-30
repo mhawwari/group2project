@@ -1,0 +1,168 @@
+div.suggestnanny
+{
+    overflow: scroll;
+    height:220px;
+    border-color: #3A8483;
+    border-style:dotted;
+}
+div.suggestnanny form
+{
+
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    background-color:lightblue;
+}
+div.suggestnanny h2
+{
+    text-align: center;
+    color:darkblue;
+}
+div.suggestnanny h4
+{
+   display: inline-block;
+
+}
+div.suggestnanny h4 a
+{
+    color: black;
+    text-decoration: none;
+}
+.nanny
+{
+    background-color: darkcyan;
+    border-style: outset;
+    border-color: #066A75;
+    margin-top:15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nannyname
+{
+    color: black;
+    text-align: center;
+    padding-left: 5%;
+}
+.nannysalary
+{
+    color:white;
+    padding-left:20%;
+}
+.nannylocation
+{
+    color: darkblue;
+    padding-left: 5%;
+}
+.nannyrate
+{
+    color: darkred;
+    padding-left: 11%;
+}
+/*nannylist*/
+
+
+div.nannyprofile{
+    height: 370px;
+    width:550px;
+    background-color:lightblue;
+    color: navy;
+    padding-left: 10px;
+    padding-top: 0px;
+    margin-top:30px;
+    border-color: #3A8483;
+    border-style: dashed;
+    overflow: scroll;
+}
+.nannyinfo h2
+{
+    color: darkblue;
+    text-align: left;
+}
+.nannyinfo h4
+{
+    color: #1E1E20;
+    text-align: left;
+    padding-top: 5%;
+}
+.nannyinfo .buttonpart
+{
+    padding-top: 15%;
+    padding-left: 60%;
+    padding-bottom: 10%;
+}
+.nannyinfo .buttonpart button
+{
+    background-color: lavender;
+    height: 30px;
+    width: 100px;
+    font-size:80%;
+    color: darkred;
+}
+.nannyimg
+{
+    background-color: white;
+    height: 30%;
+    width: 20%;
+    background: url("../images/figure.png") no-repeat 0 0;
+    background-size: contain;
+    margin-top: 5%;
+    float: left;
+}
+.nannylist
+{
+     background-color: darkcyan;
+     border-style: outset;
+     border-color: #066A75;
+     margin-top:15px;
+    padding-top: 15px;
+     padding-bottom: 15px;
+    padding-left: 10px;
+}
+.nannylist h4
+{
+    color: whitesmoke;
+    text-align: center;
+}
+.nannylistimg
+{
+    background-color: white;
+    height: 30%;
+    width: 20%;
+    background: url("../images/figure.png") no-repeat 0 0;
+    background-size: contain;
+    float: left;
+}
+.nannylistcontain
+{
+    margin-left:20%;
+    width: 75%;
+    height: 85%;
+    background-color: white;
+    border-style: dashed;
+    border-color: #1d3c41;
+}
+.nannylistcontain h4
+{
+    color: black;
+    text-align: center;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+.nannyinfo
+{
+    /*background-color: white;*/
+    margin-left:30%;
+    margin-top: 5%;
+    width: 65%;
+    height: 90%;
+}
+#finbutton
+{
+    background-color: lavender;
+    height: 30px;
+    width: 150px;
+    font-size:90%;
+    color: darkred;
+}
