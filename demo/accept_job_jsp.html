@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="../web/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--what more start -->
+<div id="rightmid">
+    <br/><br/>
+    <div style="height: 370px;background-color:lightcyan;color: navy;padding-left: 30px;padding-top: 10px">
+        <h2 style="text-align: center;background-color: white">Job Details</h2><br/>
+        <form action="Controller " method="post"  autocomplete="on">
+            <h4 style="float: left">Title:</h4><br/>
+            <input style="width:90%" type="text" value="job's title" disabled/><br/><br/>
+            <h4 style="float: left">Number of children:</h4><br/>
+            <input style="width:90%" type="text" value="baby number" disabled/><br/><br/>
+            <h4 style="float: left">Working hours:</h4><br/>
+            <input style="width:10%" type="text" value="starttime" disabled/> - <input type="text" style="width:10%" value="endtime" disabled/><br/><br/>
+            <h4 style="float: left">Requirements:</h4><br/>
+            <input type="checkbox" checked disabled>sleep
+            <input type="checkbox" disabled>feed the baby
+            <input type="checkbox" disabled>go out<br/><br/>
+            <h4 style="float: left;">Desciption:</h4><br/>
+            <textarea style="width:90%; height:15%" disabled>job's description</textarea>
+            <br/>
+            <input type="submit" style="margin-left: 390px" value="accept the job"  name="<%=ServletCommands.param_CNTRL_Gotopost%>"/>
+        </form>
+    </div>
+</div>
+<!--what more end -->
+</body>
+</html>
+>

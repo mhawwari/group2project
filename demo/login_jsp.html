@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="../web/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../web/css/login_register.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--what more start -->
+    <br/><br/>
+    <div class="login">
+            <form id="LoginForm" action="Controller" method="POST">
+                <h1>Log In</h1>
+                <br/>
+                <!--<p>-->
+                <label class="lable" for="username" class="uname">Your email or username</label>
+                <input id="username" name="<%=ServletCommands.paramUserName%>" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+                </p>
+                <br/><br/>
+                <p>
+                    <label class="lable"for="password" class="youpasswd">Your password</label>
+                    <input id="password" name="<%=ServletCommands.paramPassWord%>" required="required" type="password" placeholder="eg. X8df!90EO" />
+                </p>
+                <br/><br/>
+                <p>
+                    <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" />
+                    <label for="loginkeeping" id="keeplogin" for>Keep me logged in</label>
+                </p><br/><br/>
+                <p class="submitpart">
+                    <input class="submitbutton" type="submit" value="Login"name="<%=ServletCommands.param_CNTRL_Login%>"/>
+                </p>
+                <br/><br/>
+                <p class="buttonpart">
+                    Not a member yet ?  Join !
+                    <button class="regbutton" type="button" onclick="location.href='register_nanny.html'">as nanny</button>
+                    <button class="regbutton" type="button" onclick="location.href='register_parent.html'">as parent</button>
+                </p>
+            </form>
+    </div>
+<!--what more end -->
+</body>
+</html>

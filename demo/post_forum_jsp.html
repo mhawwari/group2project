@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="../web/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--what more start -->
+<div id="rightmid">
+    <br/><br/>
+    <div style="height: 370px;background-color:lightcyan;color: navy;padding-left: 30px;padding-top: 10px">
+        <h2 style="text-align: center;background-color: white">Post a message</h2><br/>
+        <form action="Controller " method="post"  autocomplete="on">
+            <h4 style="float: left">Title:</h4><br/>
+            <input style="width:90%" type="text" placeholder="What job would you like to post?"/><br/><br/>
+
+            <h4 style="float: left;">Message:</h4><br/>
+            <textarea style="width:90%; height:50%" class="description" placeholder="write down your message! "  required="required" ></textarea>
+            <br/><br/>
+            <input type="submit" style="margin-left: 370px" value="post the message"  name="<%=ServletCommands.param_CNTRL_Gotopost%>"/>
+        </form>
+    </div>
+</div>
+<!--what more end -->
+</body>
+</html>

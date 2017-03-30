@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="../web/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../web/css/login_register.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--what more start -->
+<br/><br/>
+<div class="register">
+        <form action="Controller"method="POST">
+            <h1>Sign Up As Parent</h1><br/>
+            <p>
+                <label>Username:</label><br/>
+                <input class="input" name="<%=ServletCommands.paramUserName%>" required="required" type="text" placeholder="mysuperusername690"/>
+            </p>
+            <br/>
+            <p>
+                <label >Password:</label><br/>
+                <input class="input" name="<%=ServletCommands.paramPassWord%>" required="required" type="password" placeholder="eg. X8df!90EO" />
+            </p>
+            <br/>
+            <p>
+                <label>FirstName:</label><br/>
+                <input class="input"name="<%=ServletCommands.paramFirstName%>" required="required" type="text" placeholder="FirstName" />
+            </p>
+            <br/>
+            <p>
+                <label >LastName:</label><br/>
+                <input class="input" name="<%=ServletCommands.paramLastName%>" required="required" type="text" placeholder="LastName" />
+            </p>
+            <br/>
+            <p>
+                <label > Age:</label><br/>
+                <input  class="input" name="<%=ServletCommands.paramAge%>" required="required" type="text" placeholder="25" />
+            </p>
+            <br/>
+            <p>
+                <label  > Email:</label><br/>
+                <input class="input"name="<%=ServletCommands.paramMail%>" required="required" type="email" placeholder="mysupermail@mail.com"/>
+            </p>
+            <br/>
+            <p>
+                <label > Telephone:</label><br/>
+                <input class="input" name="<%=ServletCommands.paramTelephone%>" required="required" type="tel" placeholder="07xxxxxxx"/>
+            </p>
+            <br/>
+            <p>
+                <label >City:</label><br/>
+                <input  class="input" name="<%=ServletCommands.paramCity%>" required="required" type="text" placeholder="Uppsala" />
+            </p>
+            <br/>
+            <p>
+                <label >Address:</label><br/>
+                <input class="input"name="<%=ServletCommands.paramAddress%>" required="required" type="text" placeholder="Polacks" />
+            </p>
+            <br/>
+            <p>
+                <label >ZIP:</label><br/>
+                <input class="input"name="<%=ServletCommands.paramZip%>" required="required" type="text" placeholder="Sweden" />
+            </p>
+            <br/>
+            <p>
+                <label>Institute:</label><br/>
+                <select class="input"id="institutesignup" name="<%=ServletCommands.paramInstitute%>" >
+                    <option value="University of Crete">University of Uppsala</option>
+                    <option value="University of Athens">SLU</option>
+                </select>
+            </p>
+            <br/>
+            <p>
+                <label>Department</label><br/>
+                <select class="input" id="departmentsignup" name="<%=ServletCommands.paramDepartment %>"  >
+                    <option value="Biology">Biology</option>
+                    <option value="Applied Mathematics">Mathematics</option>
+                    <option value="Applied Mathematics">Applied Mathematics</option>
+                    <option value="Computer Science">Computer Science</option>
+                </select>
+            </p>
+            <br/>
+            <p>
+                <label >Gender</label><br/>
+                <select class="input" id="gendersignup" name="<%=ServletCommands.paramGender%>"/>
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                </select>
+            </p>
+            <br/>
+            <p>
+                <label>Number of Children</label><br/>
+                <input class="input"name=""  type="text" placeholder="number of Children" />
+            </p><br>
+            <p><input class="subinput1"name=""  type="text" placeholder="Child#1 name" /><input class="subinput2" name=""  type="text" placeholder="Child#1 age" /></p>
+            <p><input class="subinput1"name=""  type="text" placeholder="Child#2 name" /><input  class="subinput2"name=""  type="text" placeholder="Child#2 age" /></p>
+            <p><input class="subinput1"name=""  type="text" placeholder="Child#3 name" /><input  class="subinput2"name=""  type="text" placeholder="Child#3 age" /></p>
+            <br/>
+            <p>
+                <img class="figure" src="../web/images/figure.png"><br/><br/><br/><button class="uploadfigure">choose your photo to upload</button>
+            </p><br/><br/>
+            <p class="submitpart" >
+                <input type="submit" class="submitbutton" name="<%=ServletCommands.param_CNTRL_Register%>" value="Sign up" onclick="javascript:checkWholeForm('RegistrationMainForm')"/>
+            </p>
+            <br/>
+            <p class="buttonpart">
+                Already a member ?&emsp;
+                <button type="button" onclick="location.href='index.html'">Go and log in </button>
+            </p>
+        </form>
+</div>
+<!--what more end -->
+</body>
+</html>

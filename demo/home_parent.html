@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Welcome to UNanny Portal</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header_jsp.html");
+            $("#profile").load("profile_jsp.html");
+            $("#rightside").load("right_parent_jsp.html");
+            $("#middle").load("middle_parent_jsp.html");
+            $("#footer").load("footer_jsp.html");
+        });
+    </script>
+</head>
+<body>
+<div id="toppart">
+    <div id="leftPart">
+        <a href="home_parent.html"><img src="../web/images/logo.png" alt="logo" width="195" height="91" class="logo"  /></a>
+        <div id="profile"></div>
+    </div>
+    <div id="right">
+        <div id="header"></div>
+        <div id="rightside"></div>
+        <div id="middle"></div>
+        <br class="spacer" />
+    </div>
+    <br class="spacer" />
+</div>
+<div id="footer"></div>
+</body>
+</html>
+</body>
+</html>
